@@ -1,0 +1,87 @@
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+header {
+  background-color: #0193e7;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+header h1 {
+  color: white;
+  border: 5px solid white;
+  padding: 2px 4px;
+  display: inline-block;
+  border-radius: 36px;
+}
+header h6 {
+  color: rgb(43, 241, 255);
+  padding: 0px 0px;
+  padding-top: 5px;
+  margin: 0px 0px;
+  display: block;
+}
+.banner {
+  position: relative;
+}
+.banner img {
+  padding-top: 108px;
+  max-width: 100%;
+}
+.banner .welcome {
+  background-color: #0076bb;
+  color: white;
+  padding: 5px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  margin-top: -4px;
+}
+.banner h2 {
+  font-size: 30px;
+}
+.banner h2 span {
+  font-size: 1.3em;
+}
+.main-nav li {
+  text-align: center;
+  font-size: 35px;
+}
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+article h2 {
+  color: #0193e7;
+  font-size: 48px;
+}
+article p {
+  line-height: 2em;
+  color: #4b4b4b;
+}
+footer {
+  background: #0193e7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Pseudo Classes */
+article p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
